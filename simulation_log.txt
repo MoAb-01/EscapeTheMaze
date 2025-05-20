@@ -1,0 +1,354 @@
+Simulation started!
+Initial maze state:
+E A0 E W 
+E P A1 T 
+E W E W 
+E T E G 
+
+Turn 1: Agent 0's turn
+Current turn order: [Agent 1, Agent 0]
+Agent 0 move history (last 5): [0,1]
+Agent 0 action: DOWN
+Action result: Agent 0 moved to (1,1)
+Maze after Agent 0's turn:
+E E E W 
+E A0 A1 T 
+E W E W 
+E T E G 
+
+Attempting to rotate corridor row 0
+Turn 2: Agent 1's turn
+Current turn order: [Agent 0, Agent 1]
+Agent 1 move history (last 5): [1,2]
+Agent 1 action: UP
+Action result: Invalid move to UP.
+Maze after Agent 1's turn:
+E E W E 
+E A0 A1 T 
+E W E W 
+E T E G 
+
+Attempting to rotate corridor row 2
+Turn 3: Agent 0's turn
+Current turn order: [Agent 1, Agent 0]
+Agent 0 move history (last 5): [1,1, 1,1, 0,1]
+Agent 0 action: LEFT
+Action result: Agent 0 moved to (1,0)
+Maze after Agent 0's turn:
+E E W E 
+A0 E A1 T 
+W E W E 
+E T E G 
+
+Attempting to rotate corridor row 0
+Turn 4: Agent 1's turn
+Current turn order: [Agent 0, Agent 1]
+Agent 1 move history (last 5): [1,2]
+Agent 1 action: BACKTRACK
+Action result: Agent 1 backtracked to (1,2)
+Maze after Agent 1's turn:
+E W E E 
+A0 E A1 T 
+W E W E 
+E T E G 
+
+Attempting to rotate corridor row 1
+Turn 5: Agent 0's turn
+Current turn order: [Agent 1, Agent 0]
+Agent 0 move history (last 5): [1,0, 1,0, 1,1, 1,1, 0,1]
+Agent 0 action: BACKTRACKED
+Invalid move or command: BACKTRACKED. Skipping turn.
+Action result: Invalid move or command: BACKTRACKED. Skipping turn.
+Maze after Agent 0's turn:
+E W E E 
+E A0 T A1 
+W E W E 
+E T E G 
+
+Attempting to rotate corridor row 0
+Turn 6: Agent 1's turn
+Current turn order: [Agent 0, Agent 1]
+Agent 1 move history (last 5): []
+Agent 1 action: UP
+Action result: Agent 1 moved to (0,3)
+Maze after Agent 1's turn:
+W E E A1 
+E A0 T E 
+W E W E 
+E T E G 
+
+Attempting to rotate corridor row 2
+Turn 7: Agent 0's turn
+Current turn order: [Agent 1, Agent 0]
+Agent 0 move history (last 5): [1,0, 1,0, 1,1, 1,1, 0,1]
+Agent 0 action: LEFT
+Action result: Agent 0 moved to (1,0)
+Maze after Agent 0's turn:
+W E E A1 
+A0 E T E 
+E W E W 
+E T E G 
+
+Attempting to rotate corridor row 0
+Turn 8: Agent 1's turn
+Current turn order: [Agent 0, Agent 1]
+Agent 1 move history (last 5): [0,3, 0,3]
+Agent 1 action: BACKTRACK
+Action result: Agent 1 backtracked to (0,0)
+Maze after Agent 1's turn:
+A1 E E W 
+A0 E T E 
+E W E W 
+E T E G 
+
+Attempting to rotate corridor row 2
+Turn 9: Agent 0's turn
+Current turn order: [Agent 1, Agent 0]
+Agent 0 move history (last 5): [1,0, 1,0, 1,0, 1,0, 1,1]
+Agent 0 action: RIGHT
+Action result: Agent 0 moved to (1,1)
+Maze after Agent 0's turn:
+A1 E E W 
+E A0 T E 
+W E W E 
+E T E G 
+
+Attempting to rotate corridor row 3
+Turn 10: Agent 1's turn
+Current turn order: [Agent 0, Agent 1]
+Agent 1 move history (last 5): []
+Agent 1 action: RIGHT
+Action result: Agent 1 moved to (0,1)
+Maze after Agent 1's turn:
+E A1 E W 
+E A0 T E 
+W E W E 
+T E G E 
+
+Attempting to rotate corridor row 2
+Turn 11: Agent 0's turn
+Current turn order: [Agent 1, Agent 0]
+Agent 0 move history (last 5): [1,1, 1,1, 1,0, 1,0, 1,0]
+Agent 0 action: USEPOWERUP
+Action result: Agent 0 teleported to (3,0)
+Maze after Agent 0's turn:
+E A1 E W 
+E A0 T E 
+E W E W 
+T E G E 
+
+Attempting to rotate corridor row 1
+Turn 12: Agent 1's turn
+Current turn order: [Agent 0, Agent 1]
+Agent 1 move history (last 5): [0,1, 0,1]
+Agent 1 action: USEPOWERUP
+No power-up available.
+Action result: No power-up available.
+Maze after Agent 1's turn:
+E A1 E W 
+E T A0 E 
+E W E W 
+T E G E 
+
+Attempting to rotate corridor row 1
+Turn 13: Agent 0's turn
+Current turn order: [Agent 1, Agent 0]
+Agent 0 move history (last 5): [1,1, 1,0, 1,0, 1,0, 1,0]
+Agent 0 action: LEFT
+Action result: Agent 0 moved to (1,2)
+Maze after Agent 0's turn:
+E A1 E W 
+T E A0 E 
+E W E W 
+T E G E 
+
+Attempting to rotate corridor row 1
+Turn 14: Agent 1's turn
+Current turn order: [Agent 0, Agent 1]
+Agent 1 move history (last 5): [0,1, 0,1]
+Agent 1 action: DOWN
+Action result: Agent 1 moved to (1,1)
+Maze after Agent 1's turn:
+E E E W 
+E A1 E A0 
+E W E W 
+T E G E 
+
+Attempting to rotate corridor row 1
+Turn 15: Agent 0's turn
+Current turn order: [Agent 1, Agent 0]
+Agent 0 move history (last 5): [1,2, 1,2, 1,1, 1,0, 1,0]
+Agent 0 action: RIGHT
+Action result: Agent 0 moved to (1,1)
+Maze after Agent 0's turn:
+E E E W 
+E A0 A1 E 
+E W E W 
+T E G E 
+
+Attempting to rotate corridor row 2
+Turn 16: Agent 1's turn
+Current turn order: [Agent 0, Agent 1]
+Agent 1 move history (last 5): [1,1, 1,1, 0,1, 0,1]
+Agent 1 action: DOWN
+Action result: Invalid move to DOWN.
+Maze after Agent 1's turn:
+E A1 E W 
+E A0 T E 
+W E W E 
+T E G E 
+
+Attempting to rotate corridor row 3
+Turn 17: Agent 0's turn
+Current turn order: [Agent 1, Agent 0]
+Agent 0 move history (last 5): [1,1, 1,1, 1,2, 1,2, 1,1]
+Agent 0 action: LEFT
+Action result: Agent 0 moved to (1,0)
+Maze after Agent 0's turn:
+E A1 E W 
+A0 E T E 
+W E W E 
+E G E T 
+
+Attempting to rotate corridor row 0
+Turn 18: Agent 1's turn
+Current turn order: [Agent 0, Agent 1]
+Agent 1 move history (last 5): [0,1, 0,1]
+Agent 1 action: LEFT
+Action result: Agent 1 moved to (0,1)
+Maze after Agent 1's turn:
+E A1 W E 
+A0 E T E 
+W E W E 
+E G E T 
+
+Attempting to rotate corridor row 1
+Turn 19: Agent 0's turn
+Current turn order: [Agent 1, Agent 0]
+Agent 0 move history (last 5): [1,0, 1,0, 1,1, 1,1, 1,2]
+Agent 0 action: DOWN
+Action result: Agent 0 moved to (2,1)
+Maze after Agent 0's turn:
+E A1 W E 
+E T E E 
+W A0 W E 
+E G E T 
+
+Attempting to rotate corridor row 1
+Turn 20: Agent 1's turn
+Current turn order: [Agent 0, Agent 1]
+Agent 1 move history (last 5): [0,1, 0,1, 0,1, 0,1]
+Agent 1 action: DOWN
+Action result: Agent 1 moved to (1,1)
+Maze after Agent 1's turn:
+E E W E 
+T A1 E E 
+W A0 W E 
+E G E T 
+
+Attempting to rotate corridor row 3
+Turn 21: Agent 0's turn
+Current turn order: [Agent 1, Agent 0]
+Agent 0 move history (last 5): [2,1, 2,1, 1,0, 1,0, 1,1]
+Agent 0 action: DOWN
+Action result: Agent 0 moved to (3,1)
+Maze after Agent 0's turn:
+E E W E 
+T A1 E E 
+W E W E 
+G A0 T E 
+
+Attempting to rotate corridor row 1
+Turn 22: Agent 1's turn
+Current turn order: [Agent 0, Agent 1]
+Agent 1 move history (last 5): [1,1, 1,1, 0,1, 0,1, 0,1]
+Agent 1 action: LEFT
+Action result: Agent 1 moved to (1,1)
+Maze after Agent 1's turn:
+E E W E 
+E A1 E T 
+W E W E 
+G A0 T E 
+
+Attempting to rotate corridor row 2
+Turn 23: Agent 0's turn
+Current turn order: [Agent 1, Agent 0]
+Agent 0 move history (last 5): [3,1, 3,1, 2,1, 2,1, 1,0]
+Agent 0 action: LEFT
+Action result: Agent 0 moved to (3,0)
+Agent 0 reached the goal!
+Maze after Agent 0's turn:
+E E W E 
+E A1 E T 
+E W E W 
+G E T E 
+
+Attempting to rotate corridor row 3
+Turn 24: Agent 1's turn
+Current turn order: [Agent 0, Agent 1]
+Agent 1 move history (last 5): [1,1, 1,1, 1,1, 1,1, 0,1]
+Agent 1 action: RIGHT
+Action result: Agent 1 moved to (1,2)
+Maze after Agent 1's turn:
+E E W E 
+E E A1 T 
+E W E W 
+E T E G 
+
+Attempting to rotate corridor row 0
+Turn 25: Agent 1's turn
+Current turn order: [Agent 1]
+Agent 1 move history (last 5): [1,2, 1,2, 1,1, 1,1, 1,1]
+Agent 1 action: DOWN
+Action result: Agent 1 moved to (2,2)
+Maze after Agent 1's turn:
+E W E E 
+E E E T 
+E W A1 W 
+E T E G 
+
+Attempting to rotate corridor row 0
+Turn 26: Agent 1's turn
+Current turn order: [Agent 1]
+Agent 1 move history (last 5): [2,2, 2,2, 1,2, 1,2, 1,1]
+Agent 1 action: DOWN
+Action result: Agent 1 moved to (3,2)
+Maze after Agent 1's turn:
+W E E E 
+E E E T 
+E W E W 
+E T A1 G 
+
+Attempting to rotate corridor row 0
+Turn 27: Agent 1's turn
+Current turn order: [Agent 1]
+Agent 1 move history (last 5): [3,2, 3,2, 2,2, 2,2, 1,2]
+Agent 1 action: RIGHT
+Action result: Agent 1 moved to (3,3)
+Agent 1 reached the goal!
+Maze after Agent 1's turn:
+E E E W 
+E E E T 
+E W E W 
+E T E G 
+
+Attempting to rotate corridor row 2
+All agents have reached the goal! Game over.
+Final maze state:
+E E E W 
+E E E T 
+W E W E 
+E T E G 
+
+Goal reach order: [0, 1]
+
+=== Simulation Summary ===
+Total number of turns executed: 27
+Average number of moves per agent: 10.00
+Winner (first to reach goal): Agent 0
+
+Per-Agent Statistics:
+Agent   | Moves | Backs | Traps | Power | Stack
+-------|-------|-------|-------|-------|-------
+Agent0 |   10   |   1   |   1   |   1   |   20
+Agent1 |   10   |   3   |   1   |   0   |   16

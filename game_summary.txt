@@ -1,0 +1,19 @@
+Maze Escape Simulation Summary
+Maze Size: 6x2
+Max Turns: 100
+Agent 0:
+  Final Position: (2,4)
+  Reached Goal: true
+  Total Moves: 2
+  Backtracks: 1
+  Traps Triggered: 0
+  Power-ups Used: 0
+  Max Stack Depth: 2
+Agent 1:
+  Final Position: (2,4)
+  Reached Goal: true
+  Total Moves: 2
+  Backtracks: 0
+  Traps Triggered: 0
+  Power-ups Used: 0
+  Max Stack Depth: 3
