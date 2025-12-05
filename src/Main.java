@@ -1,7 +1,3 @@
-//yalın gedik 220401053
-//Mohamed Abdou 230401011
-//Emirhan aydın 220401031
-
 import Maze.*;
 import Controlls.*;
 import java.util.Scanner;
